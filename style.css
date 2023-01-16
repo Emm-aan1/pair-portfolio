@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  position: relative;
+}
+.Top {
+  height: 100vh;
+  widows: 100%;
+  background-image: linear-gradient(
+    to right,
+    rgb(175, 169, 169),
+    rgb(207, 207, 204),
+    rgb(211, 211, 211)
+  );
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 3%;
+  padding-right: 4%;
+}
+.Portflio {
+  color: rgb(13, 13, 14);
+  font-size: 40px;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 25px;
+  border: 1px solid rgba(182, 173, 236, 0.133);
+  border-radius: 20px;
+  //background-color: rgb(206, 192, 129);
+}
+nav ul li a {
+  color: rgb(24, 23, 23);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: rgb(227, 8, 8);
+}
